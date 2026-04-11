@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Prime-Home & Time pieces</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     
+           
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+          
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- custom css-->
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/home.css">
+    <style>
+    body{
+      background: rgba(236, 236, 248, 0.5);
+    }
+   </style>
+  </head>
+  <body>
+
+  
+    <!-----------------------navbar start-------------------------->
+    <style>
+   
+   .hoho{
+    font-size: 36px;
+   }
+      #logos {
+        width: 330px;
+        height: 160;
+      }
+      .main-menu a {
+        color: rgb(85, 85, 241);
+        /* text-decoration: none; */
+        font-size: 20px;
+        /* margin-right: 20px; */
+        font-weight: bold;
+        padding: 20px;
+        /* gap: 50px; */
+        margin-bottom: 130px;
+      }
+      .features {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+        /* padding: 10px; */
+        margin-right: 20px;
+
+      }
+      .fst{
+      font-style: italic;
+      font-weight: bold;
+        font-size: 40px;
+      }
+      .yoyo{
+        font-size: 40px;
+        margin-right: 70px;
+        color: rgb(49, 183, 49);
+      }
+      
+    </style>
+  <div class="container-fluid">
+    <header class="navbar">
+      <img src="./images.html/logo.jpeg"  id="logos"> 
+      
+     <nav class="main-menu">
+      <!-- <a href="index.html">ʜᴏᴍᴇ </a> -->
+      <!-- <a href="about.html">Mens Watches</a> -->
+      <!-- <a href="./ladies.html"> ᴡᴏᴍᴇɴꜱ ᴡᴇᴀʀ</a> -->
+       <a href="Newarrival.html"  > ➤  Original Watches </a> 
+       <!-- <a href="contact.html">Contact Us</a> -->
+    </nav>
+      <!-- <div id="searchResults"></div> -->
+      <!-- <div class="nav-icons">
+        <a  href="register.html"  onclick="openModal()">
+              <i class="fas fa-user"></i>
+        </a>
+       <a href="#" class="main-cart">
+        <i class="fas fa-heart"></i>
+         <span id="cart-count">2</span>
+        </a> -->
+        <!-- <a href="https://m.facebook.com/profile.php?id=698704836669232&wtsid=rdr_0TgpGG54wyWhf42PU&hr=1"><i class=" hoho fa-brands fa-facebook"></i></a> -->
+        <!-- <a href="https://m.facebook.com/profile.php?id=698704836669232&wtsid=rdr_0TgpGG54wyWhf42PU&hr=1"><img   src="data:image/jpeg;base64,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" alt="" width="80px" height="60px"></a> -->
+       <!-- <a href="https://wa.me/923302244486" target="_blank"><img src="data:image/jpeg;base64,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" alt="" width="70px" height="60px" ></a> -->
+    <!-- <a href="https://wa.me/923302244486"><i class=" yoyo fa-brands fa-whatsapp"></i></a> -->
+    <!-- <a href="product-cart.html" class="main-cart">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+</a> -->
+      </div>
+    </header>
+ <!-- 
+     <nav class="main-menu">
+      <a href="home.html">Home</a>
+      <a href="about.html">Mens Watches</a>
+      <a href="about.html"> Womens Watches</a>
+       <a href="product.html">New Arrival</a> 
+       <a href="contactus.html">Contact Us</a>
+    </nav>  -->
+     <!-----------------------navbar end -------------------------->
+      <!-----------------------slider start-------------------------->
+     
+
+
+  <!-- <div class="carousel-item">
+      <img src="./images.html/bbbb1.jpeg" class="d-block  w-100 vh-90 carousel-img " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images.html/bbbbbb2.jpeg" class="d-block  w-100 vh-90 carousel-img" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+  <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- <img src="./images.html/app.jpeg" class="d-block w-100 vh-90 carousel-img" alt="..."> -->
+    </div>
+  
+     <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <!-- <span class="tag">Grand Sale !</span> -->
+        <!-- <h1> <span></span> "Become Attractive" </h1> -->
+        <!-- <p>ORO is the stationery brand and one of the top stationery brands in Pakistan. Our writing instruments include fountain, ballpoint, rollerball, and gel pens, graphite pencils, colored pencils, fine liners, highlighters, crayons, and pastels.</p> -->
+        <div class="hero-buttons">
+          <button class=" primary fa-brands fa-whatsapp "><a href="https://wa.me/923162514927" class="shop"> Shop Now</a></button>
+          <!-- <button class="secondary"><a href="https://wa.me/c/923302244486">View WhatsApp Catalogue      </a></button> -->
+        </div>
+        <div class="features">
+          <span><i class="fas fa-shipping-fast"></i> Free Shipping</span>
+          <span><i class="fas fa-lock"></i> Secure Payment</span>
+          <span><i class="fas fa-undo"></i> Easy Returns</span>
+        </div>
+      </div>
+      <!-- <div class="hero-image w-360px " > -->
+        <marquee class="fst">Discount on Quantity !</marquee>
+        <!-- <img src="images.html/25.jpeg" alt="Model Image"> -->
+        <!-- <div class="discount animate__animated animate__heartBeat animate__infinite">  25% OFF !</div> -->
+      </div>
+
+    </div>
+  </section>
+    <style>
+       .primary{
+        text-decoration: none;
+        color:green;
+        font-size: 29px;
+          /* transition: transform 0.4s ease; */
+          transition: all 0.3s ;
+
+        /* transition: width 1s , transform 1s; */
+       }
+
+.primary:hover {
+    background-color: #25D366;
+  transform: scale(1.1); /* thoda upar uthna */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); thoda shadow */
+}
+
+
+       .shop{
+        text-decoration: none;
+        /* margin-top: 10px; */
+        /* color:green; */
+        font-size: 19px;
+        /* transition: width 1s , transform 1s; */
+        
+        /* transform: translate(scale(2.2)); */
+        /* transition: 0.2s; */
+        /* transform: rotate(10deg); */
+        /* transform: scale(1.2); */
+        /* transform-transition: 0.2s; */
+       }
+        #new-arrivals {
+            text-align: center;
+            font-style: italic;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Card Style */
+        .product-card {
+            width: 300px;
+            padding: 13px;
+            background: #fff;
+            border-radius: 15px;
+
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            overflow: hidden;
+            /* transition: transform 0.3s ease; */
+            position: relative;
+            
+            text-align: center;
+        }
+
+        /* Sale Badge */
+        .sale-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: red;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 10;
+        }
+        
+
+        /* Image Container */
+        .image-container {
+            width: 100%;
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .product-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        .product-image.active {
+            opacity: 1;
+        }
+
+        .details {
+            padding: 15px;
+        }
+
+        .product-name {
+            font-size: 26px;
+            font-style: italic;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: gray;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .new-price {
+            color: red;
+            font-size: 26px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .cart-btn {
+            font-size: 35px;
+            color: #25D366;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 15px;
+            transition: 0.2s;
+        }
+
+        .cart-btn:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <a href="index.html" class="home-btn">Home</a> -->
+    <!-- <h1 id="new-arrivals">Hot Sales & Offers !</h1> -->
+
+    <div class="container">
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Kitchen Oil filter Pot 1.4 liter   Rate 1300.jpeg" class="product-image active">
+                <!-- <img src="./images.html/2.jpeg" class="product-image">
+                <img src="./images.html/3.jpeg" class="product-image">
+                <img src="./images.html/4.jpeg" class="product-image">
+                <img src="./images.html/5.jpeg" class="product-image">
+                <img src="./images.html/6.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">Kitchen Oil filter Pot 1.4 liter</h3>
+                <!-- <span class="old-price">Rs : 9800</span> -->
+                <span class="new-price">Rs : 1300</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">25% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/WhatsApp Image 2026-03-28 at 10.43.58 AM.jpeg" class="product-image active">
+                <img src="./images.html/Large Adhesive Hooks for Hanging Heavy Duty Wall Hooks PVC     Pack of 10 High Quality  Rate 350.jpeg" class="product-image">
+                <!-- <img src="./images.html/4....jpeg" class="product-image">
+                <img src="./images.html/2....jpeg" class="product-image">
+                <img src="./images.html/5....jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name"> Large Adhesive Hooks      Pack of 10 </h3>
+                <!-- <span class="old-price">Rs : 9800</span> -->
+                <span class="new-price">Rs : 350</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Portable Ratchet Screwdriver Hidden Screwdriver Head Multi Angle Corner Capable Multifunctional Screwdriver Set 10 in 1  Rate 2000.jpeg" class="product-image active">
+                <img src="./images.html/rate 2000.jpeg" class="product-image">
+            </div>
+            <div class="details">
+                <h3 class="product-name">Original-Curren</h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 2000</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/2 In 1 Oil Bottle SprayRs 850 Discount On Quantity.jpeg" class="product-image active">
+                <!-- <img src="./images.html/rate 2000.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">2 in 1 oil bottle spray</h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 850</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Rolex 1.jpeg" class="product-image active">
+                <img src="./images.html/rolecx2.jpeg" class="product-image">
+                <img src="./images.html/Rolex Land-Dweller  Date Working  Stainless steel chain  Price 2500-  Only With Normal Box 🎁.jpeg" class="product-image">
+                <img src="./images.html/rolex.jpeg" class="product-image">
+            </div>
+            <div class="details">
+                <h3 class="product-name">Rolexland Land-Dweller </h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 2500</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Rado Sheffer Chain Men's Watch Date Working  Price 1800- Only With Normal Box 🎁.jpeg" class="product-image active">
+                <img src="./images.html/1800.jpeg" class="product-image">
+                <!-- <img src="./images.html/1800.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">Rado Sheffer Chain Men's Watch </h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 1800</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <!-- <img src="./images.html/Portable Ratchet Screwdriver Hidden Screwdriver Head Multi Angle Corner Capable Multifunctional Screwdriver Set 10 in 1  Rate 2000.jpeg" class="product-image active"> -->
+                <img src="./images.html/🔥REWARD FACE GEAR WATCHES FOR MENS🔥 ~4 Different colours in Dial ~Slicon strap ~Leather strap ~Premium Quality  With packaging 2750- only.jpeg" class="product-image">
+                <img src="./images.html/reward.jpeg" class="product-image">
+                <img src="./images.html/2750.jpeg" class="product-image">
+            </div>
+            <div class="details">
+                <h3 class="product-name">Reward face-gear watch</h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 2750</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">20% OFF !</div> -->
+            <div class="image-container">
+                <!-- <img src="./images.html/Portable Ratchet Screwdriver Hidden Screwdriver Head Multi Angle Corner Capable Multifunctional Screwdriver Set 10 in 1  Rate 2000.jpeg" class="product-image active"> -->
+                <img src="./images.html/Handheld Massage Ball for Muscle Back Neck Joint Foot Shoulder Leg Pain Relief Rate 690 Discount on Quantity.jpeg" class="product-image">
+                <img src="./images.html/690.jpeg" class="product-image">
+            </div>
+            <div class="details">
+                <h3 class="product-name">Handheld Massage Ball</h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 690</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">25% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Anti-Theft Alarm Lock Rate 1100.jpeg" class="product-image active">
+                <!-- <img src="./images.html/r2.jpeg" class="product-image">
+                <img src="./images.html/r3.jpeg" class="product-image">
+                <img src="./images.html/r4.jpeg" class="product-image">
+                <img src="./images.html/r5.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">Anti-Theft Alarm Lock</h3>
+                <!-- <span class="old-price">Rs : 6500</span> -->
+                <span class="new-price">Rs : 1100</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Rechargeable Rose Diamond Table Lamp with Wireless Remote  16RGB Colours    Rate 1250.jpeg"         class="product-image active">
+                <img src="./images.html/8.jpeg"         class="product-image active">
+            </div>
+            <div class="details">
+                <h3 class="product-name">Rechargeable Rose Diamond Table Lamp with Wireless Remote  16RGB Colours</h3>
+                <!-- <span class="old-price">Rs : 3560</span> -->
+                <span class="new-price">Rs : 1250</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Electric Period Cramp Massager Vibrator Heating Belt for Menstrual Relief Pain Waist Stomach Warming Women  Rate 1350.jpeg" class="product-image active">
+                <img src="./images.html/rate.jpeg" class="product-image">
+                <!-- <img src="./images.html/00.jpeg" class="product-image">
+                <img src="./images.html/80.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">Electric Period Cramp Massager for women</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 1300</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+            <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/F3 MOBILE MAGNIFIER  Rate 500.jpeg" class="product-image active">
+                <!-- <img src="./images.html" class="product-image"> -->
+                <!-- <img src="./images.html/00.jpeg" class="product-image">
+                <img src="./images.html/80.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">F3 MOBILE MAGNIFIER </h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 500</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Refrigerator Door Safety Lock  Rate 300.jpeg" class="product-image active">
+                <img src="./images.html/lo.jpeg" class="product-image">
+                <!-- <img src="./images.html/00.jpeg" class="product-image">
+                <img src="./images.html/80.jpeg" class="product-image"> -->
+            </div>
+            <div class="details">
+                <h3 class="product-name">Refrigerator Door Safety Lock</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 300</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/rip 1.jpeg" class="product-image active">
+                <img src="./images.html/Automatic Counter Hand Gripper  Rate 650 .jpeg" class="product-image">
+                <img src="./images.html/rippper.jpeg" class="product-image"> 
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">Automatic Counter Hand Gripper</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 650</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/10 PCs Protect Mobile Phone Dustproof Net Stickers Speaker Mesh Anti Dust Proof Universal 10 pcs Stickers in 1 Strip  Rate 160 (Strip).jpeg" class="product-image active">
+                <img src="./images.html/strip.jpeg" class="product-image">
+                <!-- <img src="./images.html/rippper.jpeg" class="product-image">  -->
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">10 PCs Protect Mobile Phone Dustproof Net Stickers</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 160</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/4-IN-1 MULTI GRATER  WITH CASE & PLASTIC COVER  Rate 900.jpeg" class="product-image active">
+                <img src="./images.html/4 in 1.jpeg" class="product-image">
+                <!-- <img src="./images.html/rippper.jpeg" class="product-image">  -->
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">4-IN-1 MULTI GRATER WITH CASE & PLASTIC COVER</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 900</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Rechargeable Mini Pocket Shoppers Sealing Device (with Box Packing)   Rate 630.jpeg" class="product-image active">
+                <!-- <img src="./images.html/Automatic Counter Hand Gripper  Rate 650 .jpeg" class="product-image"> -->
+                <img src="./images.html/rech.jpeg" class="product-image"> 
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">Rechargeable Mini Pocket Shoppers Sealing Device</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 630</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/Ultrasonic Sonic Electric Toothbrush USB Charging Rechargeable Total Washable Electronic Whitening Teeth Brush for Oral Care  Rate 1000.jpeg" class="product-image active">
+                <!-- <img src="./images.html/Automatic Counter Hand Gripper  Rate 650 .jpeg" class="product-image"> -->
+                <!-- <img src="./images.html/rippper.jpeg" class="product-image">  -->
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">Ultrasonic Sonic Electric Toothbrush</h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 1000</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <!-- <div class="sale-badge">15% OFF !</div> -->
+            <div class="image-container">
+                <img src="./images.html/3 in 1 Handheld Vacuum Car Cleaner  RATE 950.jpeg" class="product-image active">
+                <!-- <img src="./images.html/Automatic Counter Hand Gripper  Rate 650 .jpeg" class="product-image"> -->
+                <!-- <img src="./images.html/rippper.jpeg" class="product-image">  -->
+               
+            </div>
+            <div class="details">
+                <h3 class="product-name">3 in 1 Handheld Vacuum Car Cleaner </h3>
+                <!-- <span class="old-price">Rs : 1300</span> -->
+                <span class="new-price">Rs : 950</span><br>
+                <a class="cart-btn" onclick="sendSaleOrder(this)">➤ 🛒</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Automatic Slider Logic
+        const cards = document.querySelectorAll('.product-card');
+        cards.forEach(card => {
+            let currentIndex = 0;
+            const images = card.querySelectorAll('.product-image');
+            if(images.length > 1) {
+                setInterval(() => {
+                    images[currentIndex].classList.remove('active');
+                    currentIndex = (currentIndex + 1) % images.length;
+                    images[currentIndex].classList.add('active');
+                }, 2300);
+            }
+        });
+
+        // WhatsApp Ordering Logic
+        function sendSaleOrder(element) {
+            const card = element.closest('.product-card');
+            const pName = card.querySelector('.product-name').innerText;
+            const pPrice = card.querySelector('.new-price').innerText;
+            const pImg = card.querySelector('.product-image.active').src;
+            
+            const myNum = "923162514927";
+
+            const message = `*Hello*` +
+                            `-------------------%0A` +
+                            `*Item:* ${pName}%0A` +
+                            `*Sale Price:* ${pPrice}%0A` +
+                            `*Photo:* ${pImg}%0A%0A` +
+                            `Bhai, ye sale wala item order karna hai!`;
+
+            window.open(`https://wa.me/${myNum}?text=${message}`, '_blank');
+        }
+    </script>
+
+
+
+    <style>
+        #footer {
+            background: #1a1a1a; /* Dark theme */
+            color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+    border-top: 4px solid #31b731; /* Green line like WhatsApp */
+}
+
+.footer-content h1 {
+    font-size: 24px;
+    color: #31b731;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-contact p {
+    font-size: 15px;
+    color: #bbbbbb;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.footer-bottom-text {
+    font-size: 13px;
+    color: #777;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+/* Footer icons style */
+.footer-social-links a {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-social-links a:hover {
+    color: #31b731;
+    transform: translateY(-3px);
+}
+</style>
+
+     <footer id="footer">
+    <div class="container footer-content">
+        <h1 class="sitename">Prime home & Time-piece</h1>
+        <div class="footer-contact">
+            <p> " We deal in all kinds of home and time-piece products."</p>
+            
+            <div class="footer-social-links">
+                <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+                <a href="https://wa.me/923302244486"><i class="fa-brands fa-whatsapp"></i></a>
+                <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+        </div>
+        
+        <div class="footer-bottom-text">
+            © 2026 <strong>PrimeHome & Time-piece</strong>. All Rights Reserved.
+        </div>
+    </div>
+</footer> 
+    
+
+  <!-- </div> -->
+  <Script src="index.js"></Script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+     </body>
+</html>
+    
+    
+    
